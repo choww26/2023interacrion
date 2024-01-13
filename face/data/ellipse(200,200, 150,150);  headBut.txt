@@ -1,0 +1,16 @@
+      ellipse(200,200, 150,150); // headButton
+      if(testMouse(105 , 295 , 105 ,295))ellipse(200,200, 160,160); fill(255); text("HEAD", 144,215);
+      fill(#DB688B); ellipse(200,450 ,150,150); // eyesButton
+      if(testMouse(105 , 295 , 380 ,525))ellipse(200,450 ,160,160); fill(255); text("EYES", 147,469);
+      fill(#DB688B); ellipse(200,700 ,150,150); // hairButton
+      if(testMouse(105 , 295 , 630 ,770))ellipse(200,700 ,160,160); fill(255); text("HAIR", 146,715);
+      fill(#DB688B); ellipse(200,950 ,150,150); // dressButton
+      if(testMouse(105 , 295 , 880 ,1020))ellipse(200,950 ,160,160); fill(255); text("DRESS", 133,965);
+      stroke(#da789A);fill(#eb837e); ellipse(1130,950 ,150,150); // doneButton
+      if(testMouse(1050 , 1160 , 878 ,1020))ellipse(1130,950 ,160,160); fill(255); text("DONE", 1067,965);
+
+
+./darknet detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights -c 0
+
+
+
